@@ -1,5 +1,4 @@
 import React from "react";
-import { menuData } from "../data/menuData";
 import styled, { css } from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -11,7 +10,8 @@ const NavContainer = styled.nav`
   justify-content: space-between;
   padding: 1rem 2rem;
   width: 100%;
-  position: fixed;
+  margin: 0 auto;
+  max-width: 1600px;
   z-index: 100;
 
   @media screen and (max-width: 960px) {

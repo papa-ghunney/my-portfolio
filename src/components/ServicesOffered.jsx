@@ -7,10 +7,11 @@ const ServicesOffered = () => {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         {servicesData.map((service, index) => {
-          const { heading, info } = service;
+          const { heading, info, img } = service;
           return (
             <div className="service" key={index}>
               <h3>{heading}</h3>
+              <p className="service-img">{img}</p>
               <p>{info}</p>
             </div>
           );

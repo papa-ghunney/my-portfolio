@@ -1,24 +1,20 @@
+import { FaLaptopCode, FaChartLine, FaPaintBrush } from 'react-icons/fa'
+
 export const servicesData = [
     {
         heading: "Design + Development",
-        info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-        quibusdam ullam dicta eveniet at perferendis dolor ad nulla magni
-        numquam debitis expedita voluptatum nobis, quas iste quam
-        reprehenderit eum illo.`
+        img: <FaLaptopCode />,
+        info: `Clean, modern designs- optimized for performance, search engines and converting users to customers.`
     },
     {
         heading: "E-Commerce",
-        info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        aliquid delectus amet autem excepturi soluta eaque, magnam, nemo
-        facere explicabo quis cum ut sit obcaecati. Tempora culpa voluptas
-        error nostrum.`
+        img: <FaChartLine />,
+        info: `Integration of eCommerce platforms payment gateways, custom product templates and more`
     },
     {
-        heading: "WordPress",
-        info: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Cupiditate possimus totam laborum aperiam consequuntur quae at
-        impedit maxime saepe repellendus aliquid, voluptas facere sunt
-        perferendis rem sed voluptatem. Repellat, ex!`
+        heading: "UI/UX Design",
+        img: <FaPaintBrush />,
+        info: `UI/UX involves planning and iterating a site's structure and layout. Once the proper information architecture is in place`
 
     }
 

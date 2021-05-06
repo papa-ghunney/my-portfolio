@@ -7,7 +7,7 @@ const SingularWork = () => {
 
   return (
     <Layout>
-      {portfolioData.map((portfolio) => {
+      {portfolioData?.map((portfolio) => {
         if (portfolio.id === Number(id)) {
           return (
             <>
@@ -26,8 +26,20 @@ const SingularWork = () => {
               </section>
               <div className="portfolio-item-individual">
                 <p>{portfolio.paragraphOne}</p>
-                <img src={portfolio.img} alt="" />
-                <p>{portfolio.paragraphTwo}</p>
+                <img src={portfolio?.img} alt="" />
+                <p>{portfolio?.paragraphTwo}</p>
+                <br />
+                <div>
+                  <strong> Github Link</strong>:{"  "}
+                  <a
+                    href={portfolio?.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn"
+                  >
+                    {portfolio?.title}
+                  </a>
+                </div>
               </div>
             </>
           );

@@ -10,7 +10,7 @@ const IntroSection = () => {
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Papa Ghunney</strong>
         </h1>
-        <p className="section__subtitle section__subtitle--intro">Front-end</p>
+        <p className="section__subtitle section__subtitle--intro">Junior Web Developer</p>
         <img src={me} alt="pic of Papa Ghunney" className="intro__img" />
       </section>
   );

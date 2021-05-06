@@ -1,9 +1,9 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 export const socialsList = [
-    { name: 'facebook', path: "https://facebook.com/alphablaze20", icon: <FaFacebook /> },
-    { name: 'twitter', path: "https://twitter.com/alphablaze20", icon: <FaTwitter /> },
-    { name: 'instagram', path: "https://instagram.com/alphablaze20", icon: <FaInstagram /> },
-    { name: 'github', path: "https://github.com/alphablaze20", icon: <FaGithub /> }
+    { name: 'facebook', path: "https://facebook.com/pghunney", icon: <FaFacebook /> },
+    { name: 'linkedin', path: "https://linkedin.com/in/papa-ghunney", icon: <FaLinkedin /> },
+    { name: 'instagram', path: "https://instagram.com/alphablaze_", icon: <FaInstagram /> },
+    { name: 'github', path: "https://github.com/papa-ghunney", icon: <FaGithub /> }
 ]

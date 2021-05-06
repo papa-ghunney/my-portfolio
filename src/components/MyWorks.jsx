@@ -9,13 +9,9 @@ const MyWorks = () => {
       <p className="section__subtitle">A selection of my range of work</p>
       <div className="portfolio">
         {portfolioData.map((portfolio) => {
-          const { id, img, path } = portfolio;
+          const { id, img } = portfolio;
           return (
-            <a
-              key={id}
-              href={`/portfolio/${id}`}
-              className="portfolio__item"
-            >
+            <a key={id} href={`/portfolio/${id}`} className="portfolio__item">
               <img src={img} alt="" className="portfolio__img" />
             </a>
           );

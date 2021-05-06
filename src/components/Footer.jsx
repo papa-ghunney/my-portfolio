@@ -7,6 +7,9 @@ import "../styles.css";
 const FooterContainer = styled.div`
   background: #111;
   position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5rem 0;
@@ -53,9 +56,9 @@ const Footer = () => {
           const { name, path, icon } = social;
           return (
             <SocialMediaLink key={index}>
-              <a target="_blank" href={path}>
+              <Link target="_blank" to={{ pathname: path }}>
                 {icon}
-              </a>
+              </Link>
             </SocialMediaLink>
           );
         })}
