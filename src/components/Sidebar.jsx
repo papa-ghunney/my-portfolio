@@ -99,8 +99,8 @@ const Sidebar = ({ isOpen, toggle }) => {
         </Icon>
         <SidebarMenu>
           <SidebarLink to="/">Home</SidebarLink>
-          <SidebarLink to="/about">About</SidebarLink>
-          <SidebarLink to="/services">Services</SidebarLink>
+          <SidebarLink to="/#about-me">About</SidebarLink>
+          <SidebarLink to="/my-services">Services</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="/">Contact </SidebarRoute>
